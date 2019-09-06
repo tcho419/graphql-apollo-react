@@ -1,9 +1,10 @@
 import React from 'react';
+import logo from './logo.png';
 
 function App() {
   return (
     <div>
-      <h1>SpaceX</h1>
+      <img src={logo} alt='SpaceX' style={{ width: 300, display: 'block', margin: 'auto' }} />
     </div>
   );
 }
